@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132A3AA1B0C6A7A0AF3319B4 /* Pods_AppGraffiti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7F2479716F7ED353CF478D /* Pods_AppGraffiti.framework */; };
+		634A66B01E4FBA8800603F6A /* APIUTILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A66AF1E4FBA8800603F6A /* APIUTILS.swift */; };
+		634A66B21E4FC68800603F6A /* DetalleGraffitiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A66B11E4FC68800603F6A /* DetalleGraffitiViewController.swift */; };
+		634A66BA1E5395A500603F6A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A66B91E5395A500603F6A /* SWRevealViewController.m */; };
+		634A66BD1E539CE000603F6A /* NoticiasJSONTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A66BC1E539CE000603F6A /* NoticiasJSONTableViewController.swift */; };
+		634A66BF1E53A06600603F6A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 634A66BE1E53A06600603F6A /* Podfile */; };
+		634A66C21E53A12D00603F6A /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A66C01E53A12D00603F6A /* Nuke.framework */; };
+		634A66C31E53A12D00603F6A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A66C11E53A12D00603F6A /* SwiftyJSON.framework */; };
+		634A66C61E53A15B00603F6A /* NoticiaCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A66C41E53A15B00603F6A /* NoticiaCustomCell.swift */; };
+		634A66C71E53A15B00603F6A /* NoticiaCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634A66C51E53A15B00603F6A /* NoticiaCustomCell.xib */; };
+		634A66C91E53A27100603F6A /* GFNoticiasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A66C81E53A27100603F6A /* GFNoticiasModel.swift */; };
+		634A66CD1E53A32500603F6A /* GFParserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A66CC1E53A32500603F6A /* GFParserData.swift */; };
+		634A66CF1E53A48400603F6A /* APIManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A66CE1E53A48400603F6A /* APIManagerData.swift */; };
 		63CC964A1E4FB2C80068B2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC96491E4FB2C80068B2C8 /* AppDelegate.swift */; };
-		63CC964C1E4FB2C80068B2C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC964B1E4FB2C80068B2C8 /* ViewController.swift */; };
+		63CC964C1E4FB2C80068B2C8 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC964B1E4FB2C80068B2C8 /* CurrentLocationViewController.swift */; };
 		63CC964F1E4FB2C80068B2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CC964D1E4FB2C80068B2C8 /* Main.storyboard */; };
 		63CC96511E4FB2C80068B2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CC96501E4FB2C80068B2C8 /* Assets.xcassets */; };
 		63CC96541E4FB2C80068B2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CC96521E4FB2C80068B2C8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E7AC9578452D35673008CE6 /* Pods-AppGraffiti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGraffiti.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppGraffiti/Pods-AppGraffiti.release.xcconfig"; sourceTree = "<group>"; };
+		3E7F2479716F7ED353CF478D /* Pods_AppGraffiti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppGraffiti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634A66AF1E4FBA8800603F6A /* APIUTILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUTILS.swift; sourceTree = "<group>"; };
+		634A66B11E4FC68800603F6A /* DetalleGraffitiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleGraffitiViewController.swift; sourceTree = "<group>"; };
+		634A66B71E5395A400603F6A /* AppGraffiti-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppGraffiti-Bridging-Header.h"; sourceTree = "<group>"; };
+		634A66B81E5395A500603F6A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		634A66B91E5395A500603F6A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		634A66BC1E539CE000603F6A /* NoticiasJSONTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiasJSONTableViewController.swift; sourceTree = "<group>"; };
+		634A66BE1E53A06600603F6A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		634A66C01E53A12D00603F6A /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = "Pods/../build/Debug-iphoneos/Nuke/Nuke.framework"; sourceTree = "<group>"; };
+		634A66C11E53A12D00603F6A /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		634A66C41E53A15B00603F6A /* NoticiaCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiaCustomCell.swift; sourceTree = "<group>"; };
+		634A66C51E53A15B00603F6A /* NoticiaCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticiaCustomCell.xib; sourceTree = "<group>"; };
+		634A66C81E53A27100603F6A /* GFNoticiasModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFNoticiasModel.swift; sourceTree = "<group>"; };
+		634A66CC1E53A32500603F6A /* GFParserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFParserData.swift; sourceTree = "<group>"; };
+		634A66CE1E53A48400603F6A /* APIManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerData.swift; sourceTree = "<group>"; };
 		63CC96461E4FB2C80068B2C8 /* AppGraffiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGraffiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CC96491E4FB2C80068B2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63CC964B1E4FB2C80068B2C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63CC964B1E4FB2C80068B2C8 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
 		63CC964E1E4FB2C80068B2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63CC96501E4FB2C80068B2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63CC96531E4FB2C80068B2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63CC96551E4FB2C80068B2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DA0CBEEA3E252A29677380 /* Pods-AppGraffiti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGraffiti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppGraffiti/Pods-AppGraffiti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634A66C21E53A12D00603F6A /* Nuke.framework in Frameworks */,
+				634A66C31E53A12D00603F6A /* SwiftyJSON.framework in Frameworks */,
+				132A3AA1B0C6A7A0AF3319B4 /* Pods_AppGraffiti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04649E9AA19173B38446CB33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA0CBEEA3E252A29677380 /* Pods-AppGraffiti.debug.xcconfig */,
+				3E7AC9578452D35673008CE6 /* Pods-AppGraffiti.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E1A95771BB1C088787FB3F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				634A66C01E53A12D00603F6A /* Nuke.framework */,
+				634A66C11E53A12D00603F6A /* SwiftyJSON.framework */,
+				3E7F2479716F7ED353CF478D /* Pods_AppGraffiti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		634A66BB1E5395B800603F6A /* OBJC */ = {
+			isa = PBXGroup;
+			children = (
+				634A66B81E5395A500603F6A /* SWRevealViewController.h */,
+				634A66B91E5395A500603F6A /* SWRevealViewController.m */,
+				634A66B71E5395A400603F6A /* AppGraffiti-Bridging-Header.h */,
+			);
+			name = OBJC;
+			sourceTree = "<group>";
+		};
+		634A66CA1E53A30A00603F6A /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				634A66C81E53A27100603F6A /* GFNoticiasModel.swift */,
+			);
+			name = MODELS;
+			sourceTree = "<group>";
+		};
+		634A66CB1E53A30F00603F6A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				634A66AF1E4FBA8800603F6A /* APIUTILS.swift */,
+				634A66CC1E53A32500603F6A /* GFParserData.swift */,
+				634A66CE1E53A48400603F6A /* APIManagerData.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		63CC963D1E4FB2C70068B2C8 = {
 			isa = PBXGroup;
 			children = (
+				634A66BE1E53A06600603F6A /* Podfile */,
 				63CC96481E4FB2C80068B2C8 /* AppGraffiti */,
 				63CC96471E4FB2C80068B2C8 /* Products */,
+				04649E9AA19173B38446CB33 /* Pods */,
+				1E1A95771BB1C088787FB3F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +137,15 @@
 		63CC96481E4FB2C80068B2C8 /* AppGraffiti */ = {
 			isa = PBXGroup;
 			children = (
+				634A66BB1E5395B800603F6A /* OBJC */,
 				63CC96491E4FB2C80068B2C8 /* AppDelegate.swift */,
-				63CC964B1E4FB2C80068B2C8 /* ViewController.swift */,
+				634A66CB1E53A30F00603F6A /* API */,
+				634A66CA1E53A30A00603F6A /* MODELS */,
+				63CC964B1E4FB2C80068B2C8 /* CurrentLocationViewController.swift */,
+				634A66B11E4FC68800603F6A /* DetalleGraffitiViewController.swift */,
+				634A66BC1E539CE000603F6A /* NoticiasJSONTableViewController.swift */,
+				634A66C41E53A15B00603F6A /* NoticiaCustomCell.swift */,
+				634A66C51E53A15B00603F6A /* NoticiaCustomCell.xib */,
 				63CC964D1E4FB2C80068B2C8 /* Main.storyboard */,
 				63CC96501E4FB2C80068B2C8 /* Assets.xcassets */,
 				63CC96521E4FB2C80068B2C8 /* LaunchScreen.storyboard */,
@@ -71,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63CC96581E4FB2C80068B2C8 /* Build configuration list for PBXNativeTarget "AppGraffiti" */;
 			buildPhases = (
+				4A866B807DD1AEC604DEFF41 /* [CP] Check Pods Manifest.lock */,
 				63CC96421E4FB2C70068B2C8 /* Sources */,
 				63CC96431E4FB2C70068B2C8 /* Frameworks */,
 				63CC96441E4FB2C70068B2C8 /* Resources */,
+				0B71C70EB0E55CD64E331454 /* [CP] Embed Pods Frameworks */,
+				63C3A7694A1C99619DC8FE09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +190,7 @@
 					63CC96451E4FB2C70068B2C8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2C7W4RF846;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +219,77 @@
 			buildActionMask = 2147483647;
 			files = (
 				63CC96541E4FB2C80068B2C8 /* LaunchScreen.storyboard in Resources */,
+				634A66C71E53A15B00603F6A /* NoticiaCustomCell.xib in Resources */,
 				63CC96511E4FB2C80068B2C8 /* Assets.xcassets in Resources */,
+				634A66BF1E53A06600603F6A /* Podfile in Resources */,
 				63CC964F1E4FB2C80068B2C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B71C70EB0E55CD64E331454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppGraffiti/Pods-AppGraffiti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A866B807DD1AEC604DEFF41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63C3A7694A1C99619DC8FE09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppGraffiti/Pods-AppGraffiti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63CC96421E4FB2C70068B2C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63CC964C1E4FB2C80068B2C8 /* ViewController.swift in Sources */,
+				634A66C91E53A27100603F6A /* GFNoticiasModel.swift in Sources */,
+				634A66B21E4FC68800603F6A /* DetalleGraffitiViewController.swift in Sources */,
+				634A66BD1E539CE000603F6A /* NoticiasJSONTableViewController.swift in Sources */,
+				63CC964C1E4FB2C80068B2C8 /* CurrentLocationViewController.swift in Sources */,
+				634A66BA1E5395A500603F6A /* SWRevealViewController.m in Sources */,
+				634A66CD1E53A32500603F6A /* GFParserData.swift in Sources */,
+				634A66B01E4FBA8800603F6A /* APIUTILS.swift in Sources */,
+				634A66C61E53A15B00603F6A /* NoticiaCustomCell.swift in Sources */,
+				634A66CF1E53A48400603F6A /* APIManagerData.swift in Sources */,
 				63CC964A1E4FB2C80068B2C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,26 +409,43 @@
 		};
 		63CC96591E4FB2C80068B2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DA0CBEEA3E252A29677380 /* Pods-AppGraffiti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Nuke",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = AppGraffiti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.icologic.iOS.AppGraffiti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppGraffiti/AppGraffiti-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		63CC965A1E4FB2C80068B2C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7AC9578452D35673008CE6 /* Pods-AppGraffiti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Nuke",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = AppGraffiti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.icologic.iOS.AppGraffiti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppGraffiti/AppGraffiti-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +469,7 @@
 				63CC965A1E4FB2C80068B2C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
