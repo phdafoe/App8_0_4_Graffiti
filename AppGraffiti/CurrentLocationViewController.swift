@@ -127,6 +127,8 @@ class CurrentLocationViewController: UIViewController {
                 let region = MKCoordinateRegionMakeWithDistance(myMapView.userLocation.coordinate, 1000, 1000)
                 //myMapView.setRegion(region, animated: true)
                 myMapView.setRegion(myMapView.regionThatFits(region), animated: true)
+                
+                
             }
         }
     }
