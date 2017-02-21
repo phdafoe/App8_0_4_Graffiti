@@ -28,6 +28,15 @@
 		63DAEE051E58B15F0082FCF7 /* GraffitiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE041E58B15F0082FCF7 /* GraffitiModel.swift */; };
 		63DAEE0A1E58BCD80082FCF7 /* APIHELPERS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE091E58BCD80082FCF7 /* APIHELPERS.swift */; };
 		63DAEE0C1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE0B1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift */; };
+		63DAEE0E1E5C6F4C0082FCF7 /* GFdcComicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE0D1E5C6F4C0082FCF7 /* GFdcComicsModel.swift */; };
+		63DAEE111E5C9DB50082FCF7 /* GFParserIMDBEjemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE101E5C9DB50082FCF7 /* GFParserIMDBEjemplo.swift */; };
+		63DAEE161E5C9DC20082FCF7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DAEE121E5C9DC20082FCF7 /* Alamofire.framework */; };
+		63DAEE171E5C9DC20082FCF7 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DAEE131E5C9DC20082FCF7 /* Kingfisher.framework */; };
+		63DAEE181E5C9DC20082FCF7 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DAEE141E5C9DC20082FCF7 /* PKHUD.framework */; };
+		63DAEE191E5C9DC20082FCF7 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DAEE151E5C9DC20082FCF7 /* PromiseKit.framework */; };
+		63DAEE1C1E5CA24C0082FCF7 /* GFImdBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE1B1E5CA24C0082FCF7 /* GFImdBTableViewController.swift */; };
+		63DAEE1F1E5CA2670082FCF7 /* GFDatosIMdbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE1D1E5CA2670082FCF7 /* GFDatosIMdbCell.swift */; };
+		63DAEE201E5CA2670082FCF7 /* GFDatosIMdbCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DAEE1E1E5CA2670082FCF7 /* GFDatosIMdbCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +66,15 @@
 		63DAEE041E58B15F0082FCF7 /* GraffitiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraffitiModel.swift; sourceTree = "<group>"; };
 		63DAEE091E58BCD80082FCF7 /* APIHELPERS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHELPERS.swift; sourceTree = "<group>"; };
 		63DAEE0B1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagenGrafitiViewController.swift; sourceTree = "<group>"; };
+		63DAEE0D1E5C6F4C0082FCF7 /* GFdcComicsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFdcComicsModel.swift; sourceTree = "<group>"; };
+		63DAEE101E5C9DB50082FCF7 /* GFParserIMDBEjemplo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFParserIMDBEjemplo.swift; sourceTree = "<group>"; };
+		63DAEE121E5C9DC20082FCF7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../../../../../Library/Developer/Xcode/DerivedData/AppGraffiti-cspzgfgwpuxifparncjnfwbmyfsj/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		63DAEE131E5C9DC20082FCF7 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../../../../../../../Library/Developer/Xcode/DerivedData/AppGraffiti-cspzgfgwpuxifparncjnfwbmyfsj/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
+		63DAEE141E5C9DC20082FCF7 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = "../../../../../../../../Library/Developer/Xcode/DerivedData/AppGraffiti-cspzgfgwpuxifparncjnfwbmyfsj/Build/Products/Debug-iphoneos/PKHUD/PKHUD.framework"; sourceTree = "<group>"; };
+		63DAEE151E5C9DC20082FCF7 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = "../../../../../../../../Library/Developer/Xcode/DerivedData/AppGraffiti-cspzgfgwpuxifparncjnfwbmyfsj/Build/Products/Debug-iphoneos/PromiseKit/PromiseKit.framework"; sourceTree = "<group>"; };
+		63DAEE1B1E5CA24C0082FCF7 /* GFImdBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFImdBTableViewController.swift; sourceTree = "<group>"; };
+		63DAEE1D1E5CA2670082FCF7 /* GFDatosIMdbCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFDatosIMdbCell.swift; sourceTree = "<group>"; };
+		63DAEE1E1E5CA2670082FCF7 /* GFDatosIMdbCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFDatosIMdbCell.xib; sourceTree = "<group>"; };
 		A4DA0CBEEA3E252A29677380 /* Pods-AppGraffiti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGraffiti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppGraffiti/Pods-AppGraffiti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DAEE161E5C9DC20082FCF7 /* Alamofire.framework in Frameworks */,
+				63DAEE171E5C9DC20082FCF7 /* Kingfisher.framework in Frameworks */,
+				63DAEE181E5C9DC20082FCF7 /* PKHUD.framework in Frameworks */,
+				63DAEE191E5C9DC20082FCF7 /* PromiseKit.framework in Frameworks */,
 				634A66C21E53A12D00603F6A /* Nuke.framework in Frameworks */,
 				634A66C31E53A12D00603F6A /* SwiftyJSON.framework in Frameworks */,
 				132A3AA1B0C6A7A0AF3319B4 /* Pods_AppGraffiti.framework in Frameworks */,
@@ -86,6 +108,10 @@
 		1E1A95771BB1C088787FB3F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63DAEE121E5C9DC20082FCF7 /* Alamofire.framework */,
+				63DAEE131E5C9DC20082FCF7 /* Kingfisher.framework */,
+				63DAEE141E5C9DC20082FCF7 /* PKHUD.framework */,
+				63DAEE151E5C9DC20082FCF7 /* PromiseKit.framework */,
 				634A66C01E53A12D00603F6A /* Nuke.framework */,
 				634A66C11E53A12D00603F6A /* SwiftyJSON.framework */,
 				3E7F2479716F7ED353CF478D /* Pods_AppGraffiti.framework */,
@@ -107,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				634A66C81E53A27100603F6A /* GFNoticiasModel.swift */,
+				63DAEE0D1E5C6F4C0082FCF7 /* GFdcComicsModel.swift */,
 			);
 			name = MODELS;
 			sourceTree = "<group>";
@@ -116,7 +143,7 @@
 			children = (
 				634A66AF1E4FBA8800603F6A /* APIUTILS.swift */,
 				63DAEE091E58BCD80082FCF7 /* APIHELPERS.swift */,
-				634A66CC1E53A32500603F6A /* GFParserData.swift */,
+				63DAEE0F1E5C9D870082FCF7 /* PARSER */,
 				634A66CE1E53A48400603F6A /* APIManagerData.swift */,
 			);
 			name = API;
@@ -171,8 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				634A66BC1E539CE000603F6A /* NoticiasJSONTableViewController.swift */,
-				634A66C41E53A15B00603F6A /* NoticiaCustomCell.swift */,
-				634A66C51E53A15B00603F6A /* NoticiaCustomCell.xib */,
+				63DAEE1B1E5CA24C0082FCF7 /* GFImdBTableViewController.swift */,
+				63DAEE211E5CA26E0082FCF7 /* XIB_ IMdB */,
+				63DAEE1A1E5CA21F0082FCF7 /* XIB_NOTICIAS */,
 			);
 			name = VIEW_JSON_SYNC;
 			sourceTree = "<group>";
@@ -185,6 +213,33 @@
 				63DAEE0B1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift */,
 			);
 			name = VIEW_MAPAS;
+			sourceTree = "<group>";
+		};
+		63DAEE0F1E5C9D870082FCF7 /* PARSER */ = {
+			isa = PBXGroup;
+			children = (
+				634A66CC1E53A32500603F6A /* GFParserData.swift */,
+				63DAEE101E5C9DB50082FCF7 /* GFParserIMDBEjemplo.swift */,
+			);
+			name = PARSER;
+			sourceTree = "<group>";
+		};
+		63DAEE1A1E5CA21F0082FCF7 /* XIB_NOTICIAS */ = {
+			isa = PBXGroup;
+			children = (
+				634A66C41E53A15B00603F6A /* NoticiaCustomCell.swift */,
+				634A66C51E53A15B00603F6A /* NoticiaCustomCell.xib */,
+			);
+			name = XIB_NOTICIAS;
+			sourceTree = "<group>";
+		};
+		63DAEE211E5CA26E0082FCF7 /* XIB_ IMdB */ = {
+			isa = PBXGroup;
+			children = (
+				63DAEE1D1E5CA2670082FCF7 /* GFDatosIMdbCell.swift */,
+				63DAEE1E1E5CA2670082FCF7 /* GFDatosIMdbCell.xib */,
+			);
+			name = "XIB_ IMdB";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DAEE201E5CA2670082FCF7 /* GFDatosIMdbCell.xib in Resources */,
 				63CC96541E4FB2C80068B2C8 /* LaunchScreen.storyboard in Resources */,
 				634A66C71E53A15B00603F6A /* NoticiaCustomCell.xib in Resources */,
 				63CC96511E4FB2C80068B2C8 /* Assets.xcassets in Resources */,
@@ -314,14 +370,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DAEE111E5C9DB50082FCF7 /* GFParserIMDBEjemplo.swift in Sources */,
 				63DAEE0A1E58BCD80082FCF7 /* APIHELPERS.swift in Sources */,
 				634A66C91E53A27100603F6A /* GFNoticiasModel.swift in Sources */,
 				634A66B21E4FC68800603F6A /* DetalleGraffitiViewController.swift in Sources */,
 				63DAEE0C1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift in Sources */,
 				634A66BD1E539CE000603F6A /* NoticiasJSONTableViewController.swift in Sources */,
+				63DAEE0E1E5C6F4C0082FCF7 /* GFdcComicsModel.swift in Sources */,
 				63DAEE051E58B15F0082FCF7 /* GraffitiModel.swift in Sources */,
 				63CC964C1E4FB2C80068B2C8 /* CurrentLocationViewController.swift in Sources */,
 				634A66BA1E5395A500603F6A /* SWRevealViewController.m in Sources */,
+				63DAEE1F1E5CA2670082FCF7 /* GFDatosIMdbCell.swift in Sources */,
+				63DAEE1C1E5CA24C0082FCF7 /* GFImdBTableViewController.swift in Sources */,
 				634A66CD1E53A32500603F6A /* GFParserData.swift in Sources */,
 				634A66B01E4FBA8800603F6A /* APIUTILS.swift in Sources */,
 				634A66C61E53A15B00603F6A /* NoticiaCustomCell.swift in Sources */,

@@ -4,12 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Nuke.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-AppGraffiti.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PromiseKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0240BFBCB9C7713F864C3436182B2988</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>0A508FAA1BBC72C48E53DA42A2E340FA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>1FB3581F4855FB816F0C4899ED1A6026</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DA512ADAE651CF46CB4CBC5A64F43E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4944FEC314D1A66588651D006273ADE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C95C1012E13F0C4411E5A9C7B13870A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF369EB41BF503CB3E4F33332B2156D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

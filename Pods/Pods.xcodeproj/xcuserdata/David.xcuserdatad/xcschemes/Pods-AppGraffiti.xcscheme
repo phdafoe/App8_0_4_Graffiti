@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A508FAA1BBC72C48E53DA42A2E340FA"
+               BlueprintIdentifier = "8DA512ADAE651CF46CB4CBC5A64F43E2"
                BuildableName = "Pods_AppGraffiti.framework"
                BlueprintName = "Pods-AppGraffiti"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A508FAA1BBC72C48E53DA42A2E340FA"
+            BlueprintIdentifier = "8DA512ADAE651CF46CB4CBC5A64F43E2"
             BuildableName = "Pods_AppGraffiti.framework"
             BlueprintName = "Pods-AppGraffiti"
             ReferencedContainer = "container:Pods.xcodeproj">

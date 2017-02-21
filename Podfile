@@ -5,6 +5,9 @@ use_frameworks!
 target 'AppGraffiti' do
     pod 'SwiftyJSON'
     pod 'Nuke'
+    pod 'PromiseKit'
+    pod 'Kingfisher'
+    pod 'PromiseKit/Alamofire'
 end
 
 
