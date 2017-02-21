@@ -10,6 +10,46 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Imagen Grafiti View Controller-->
+        <scene sceneID="pm8-yU-0yB">
+            <objects>
+                <viewController storyboardIdentifier="ImagenGrafitiViewController" id="g6S-gT-31C" customClass="ImagenGrafitiViewController" customModule="AppGraffiti" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eQV-oa-zFc"/>
+                        <viewControllerLayoutGuide type="bottom" id="P8J-oY-bhp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Onc-Nm-bTG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hI0-Ke-BTh">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21261718750000003" green="0.21261718750000003" blue="0.21261718750000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hI0-Ke-BTh" firstAttribute="top" secondItem="eQV-oa-zFc" secondAttribute="bottom" id="0iQ-a2-VDy"/>
+                            <constraint firstAttribute="trailing" secondItem="hI0-Ke-BTh" secondAttribute="trailing" id="WXO-OA-4Ip"/>
+                            <constraint firstItem="P8J-oY-bhp" firstAttribute="top" secondItem="hI0-Ke-BTh" secondAttribute="bottom" id="d7r-Je-qxE"/>
+                            <constraint firstItem="hI0-Ke-BTh" firstAttribute="leading" secondItem="Onc-Nm-bTG" secondAttribute="leading" id="fJ1-57-m5I"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KcS-Kn-TFt">
+                        <barButtonItem key="leftBarButtonItem" title="Cerrar" id="p2a-DV-lOU">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="cerrarVC:" destination="g6S-gT-31C" id="k4T-Kw-RZJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myImageGrafiti" destination="hI0-Ke-BTh" id="4c3-aZ-uSB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxe-BG-YK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="981" y="-2102"/>
+        </scene>
         <!--Current Location View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -22,7 +62,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="flR-Gd-mAK">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="flR-Gd-mAK">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCt-vo-hgP">
@@ -32,6 +72,9 @@
                                     <constraint firstAttribute="height" constant="75" id="zFd-67-AFI"/>
                                 </constraints>
                                 <state key="normal" image="btn_localizar_on"/>
+                                <connections>
+                                    <action selector="obtenerLocalizacion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MLg-XG-egQ"/>
+                                </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Ukf-pH-let">
                                 <rect key="frame" x="150" y="484" width="20" height="20"/>
@@ -59,7 +102,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="buscaMapa" destination="JCt-vo-hgP" id="IL9-ur-L6j"/>
                         <outlet property="menuButton" destination="lu2-cM-40Q" id="c3G-5d-ejH"/>
+                        <outlet property="myActivitiIndicator" destination="Ukf-pH-let" id="z8h-gR-8qP"/>
+                        <outlet property="myAñadirButton" destination="Zpd-pY-BPd" id="Uq0-Ub-sji"/>
+                        <outlet property="myMapView" destination="flR-Gd-mAK" id="XHz-y5-Tu2"/>
+                        <segue destination="RLG-sM-6Ve" kind="modal" identifier="showPinImage" id="c5z-dP-0Ne"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -180,8 +228,19 @@
                                 <action selector="cerraVC:" destination="Mwj-uT-Q8O" id="K4M-Kb-SJM"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="l2S-8Q-4Pj"/>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Salvar" id="l2S-8Q-4Pj">
+                            <connections>
+                                <action selector="salvarFotografiaDelGrafito:" destination="Mwj-uT-Q8O" id="slN-px-nxV"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="myDireccionLBL" destination="WR3-PU-Cwx" id="Jvb-4z-okP"/>
+                        <outlet property="myLatitudLBL" destination="dl5-do-TkB" id="XiF-33-JFl"/>
+                        <outlet property="myLongitudLBL" destination="TEd-f2-prr" id="9gY-ub-LRj"/>
+                        <outlet property="myPickerImageView" destination="hX3-e8-vjm" id="Ikv-Wx-L3w"/>
+                        <outlet property="mySalvarDataBTN" destination="l2S-8Q-4Pj" id="hvL-t6-O40"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZo-zD-1JW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -517,7 +576,6 @@
         <!--Navigation Controller-->
         <scene sceneID="wgC-el-b0h">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gyt-lg-0VJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ita-bu-yyX" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ph7-f1-XFi">
@@ -529,6 +587,7 @@
                         <segue destination="hWl-mw-WxC" kind="relationship" relationship="rootViewController" id="Yz6-eV-BLy"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gyt-lg-0VJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="158" y="-561"/>
         </scene>
@@ -567,6 +626,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9sG-C1-uus" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="981" y="-562"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dxU-uP-j4h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RLG-sM-6Ve" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="41i-AD-mcV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.2126171875" green="0.2126171875" blue="0.2126171875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="g6S-gT-31C" kind="relationship" relationship="rootViewController" id="KzM-B0-jIW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ocb-2H-tLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158" y="-2101"/>
         </scene>
     </scenes>
     <resources>

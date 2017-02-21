@@ -74,10 +74,8 @@ class NoticiasJSONTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "NoticiaCustomCell", for: indexPath) as! NoticiaCustomCell
 
         let model = arrayNoticias[indexPath.row]
-        // Configure the cell...
+        
         cell.myTituloPost.text = model.title
-        //cell.myImagenPost.image = model.url
-        //cell.myMiniaturaPost.image = model.thumbnailUrl
         
         if let url = URL(string: model.url!) {
             Nuke.loadImage(with: url, into: cell.myImagenPost)

@@ -4,6 +4,18 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Siempre necesito saber en donde estas</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Necesito acceder a la camara</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Necesito acceder a la camara</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string></string>
+	<key>NSLocationUsageDescription</key>
+	<string>Necesito saber en donde estas</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Necesito saber en donde estas</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

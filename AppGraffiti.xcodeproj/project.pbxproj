@@ -25,6 +25,9 @@
 		63CC964F1E4FB2C80068B2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CC964D1E4FB2C80068B2C8 /* Main.storyboard */; };
 		63CC96511E4FB2C80068B2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CC96501E4FB2C80068B2C8 /* Assets.xcassets */; };
 		63CC96541E4FB2C80068B2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CC96521E4FB2C80068B2C8 /* LaunchScreen.storyboard */; };
+		63DAEE051E58B15F0082FCF7 /* GraffitiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE041E58B15F0082FCF7 /* GraffitiModel.swift */; };
+		63DAEE0A1E58BCD80082FCF7 /* APIHELPERS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE091E58BCD80082FCF7 /* APIHELPERS.swift */; };
+		63DAEE0C1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE0B1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		63CC96501E4FB2C80068B2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63CC96531E4FB2C80068B2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63CC96551E4FB2C80068B2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DAEE041E58B15F0082FCF7 /* GraffitiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraffitiModel.swift; sourceTree = "<group>"; };
+		63DAEE091E58BCD80082FCF7 /* APIHELPERS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHELPERS.swift; sourceTree = "<group>"; };
+		63DAEE0B1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagenGrafitiViewController.swift; sourceTree = "<group>"; };
 		A4DA0CBEEA3E252A29677380 /* Pods-AppGraffiti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGraffiti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppGraffiti/Pods-AppGraffiti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				634A66AF1E4FBA8800603F6A /* APIUTILS.swift */,
+				63DAEE091E58BCD80082FCF7 /* APIHELPERS.swift */,
 				634A66CC1E53A32500603F6A /* GFParserData.swift */,
 				634A66CE1E53A48400603F6A /* APIManagerData.swift */,
 			);
@@ -139,19 +146,45 @@
 			children = (
 				634A66BB1E5395B800603F6A /* OBJC */,
 				63CC96491E4FB2C80068B2C8 /* AppDelegate.swift */,
+				63DAEE061E58B1980082FCF7 /* MODEL */,
 				634A66CB1E53A30F00603F6A /* API */,
 				634A66CA1E53A30A00603F6A /* MODELS */,
-				63CC964B1E4FB2C80068B2C8 /* CurrentLocationViewController.swift */,
-				634A66B11E4FC68800603F6A /* DetalleGraffitiViewController.swift */,
-				634A66BC1E539CE000603F6A /* NoticiasJSONTableViewController.swift */,
-				634A66C41E53A15B00603F6A /* NoticiaCustomCell.swift */,
-				634A66C51E53A15B00603F6A /* NoticiaCustomCell.xib */,
+				63DAEE081E58B35D0082FCF7 /* VIEW_MAPAS */,
+				63DAEE071E58B34B0082FCF7 /* VIEW_JSON_SYNC */,
 				63CC964D1E4FB2C80068B2C8 /* Main.storyboard */,
 				63CC96501E4FB2C80068B2C8 /* Assets.xcassets */,
 				63CC96521E4FB2C80068B2C8 /* LaunchScreen.storyboard */,
 				63CC96551E4FB2C80068B2C8 /* Info.plist */,
 			);
 			path = AppGraffiti;
+			sourceTree = "<group>";
+		};
+		63DAEE061E58B1980082FCF7 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				63DAEE041E58B15F0082FCF7 /* GraffitiModel.swift */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+		63DAEE071E58B34B0082FCF7 /* VIEW_JSON_SYNC */ = {
+			isa = PBXGroup;
+			children = (
+				634A66BC1E539CE000603F6A /* NoticiasJSONTableViewController.swift */,
+				634A66C41E53A15B00603F6A /* NoticiaCustomCell.swift */,
+				634A66C51E53A15B00603F6A /* NoticiaCustomCell.xib */,
+			);
+			name = VIEW_JSON_SYNC;
+			sourceTree = "<group>";
+		};
+		63DAEE081E58B35D0082FCF7 /* VIEW_MAPAS */ = {
+			isa = PBXGroup;
+			children = (
+				63CC964B1E4FB2C80068B2C8 /* CurrentLocationViewController.swift */,
+				634A66B11E4FC68800603F6A /* DetalleGraffitiViewController.swift */,
+				63DAEE0B1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift */,
+			);
+			name = VIEW_MAPAS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,9 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DAEE0A1E58BCD80082FCF7 /* APIHELPERS.swift in Sources */,
 				634A66C91E53A27100603F6A /* GFNoticiasModel.swift in Sources */,
 				634A66B21E4FC68800603F6A /* DetalleGraffitiViewController.swift in Sources */,
+				63DAEE0C1E5BB00B0082FCF7 /* ImagenGrafitiViewController.swift in Sources */,
 				634A66BD1E539CE000603F6A /* NoticiasJSONTableViewController.swift in Sources */,
+				63DAEE051E58B15F0082FCF7 /* GraffitiModel.swift in Sources */,
 				63CC964C1E4FB2C80068B2C8 /* CurrentLocationViewController.swift in Sources */,
 				634A66BA1E5395A500603F6A /* SWRevealViewController.m in Sources */,
 				634A66CD1E53A32500603F6A /* GFParserData.swift in Sources */,
