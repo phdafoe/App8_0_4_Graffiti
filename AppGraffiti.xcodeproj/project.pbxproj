@@ -32,7 +32,6 @@
 		63DAEE111E5C9DB50082FCF7 /* GFParserIMDBEjemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE101E5C9DB50082FCF7 /* GFParserIMDBEjemplo.swift */; };
 		63DAEE161E5C9DC20082FCF7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DAEE121E5C9DC20082FCF7 /* Alamofire.framework */; };
 		63DAEE171E5C9DC20082FCF7 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DAEE131E5C9DC20082FCF7 /* Kingfisher.framework */; };
-		63DAEE181E5C9DC20082FCF7 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DAEE141E5C9DC20082FCF7 /* PKHUD.framework */; };
 		63DAEE191E5C9DC20082FCF7 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DAEE151E5C9DC20082FCF7 /* PromiseKit.framework */; };
 		63DAEE1C1E5CA24C0082FCF7 /* GFImdBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE1B1E5CA24C0082FCF7 /* GFImdBTableViewController.swift */; };
 		63DAEE1F1E5CA2670082FCF7 /* GFDatosIMdbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAEE1D1E5CA2670082FCF7 /* GFDatosIMdbCell.swift */; };
@@ -85,7 +84,6 @@
 			files = (
 				63DAEE161E5C9DC20082FCF7 /* Alamofire.framework in Frameworks */,
 				63DAEE171E5C9DC20082FCF7 /* Kingfisher.framework in Frameworks */,
-				63DAEE181E5C9DC20082FCF7 /* PKHUD.framework in Frameworks */,
 				63DAEE191E5C9DC20082FCF7 /* PromiseKit.framework in Frameworks */,
 				634A66C21E53A12D00603F6A /* Nuke.framework in Frameworks */,
 				634A66C31E53A12D00603F6A /* SwiftyJSON.framework in Frameworks */,

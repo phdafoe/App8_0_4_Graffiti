@@ -13,6 +13,7 @@ class APIManagerData: NSObject {
     //SINGLETON
     static let shared = APIManagerData()
     
+    
     var grafitisData : [GraffitiModel] = []
     
     
